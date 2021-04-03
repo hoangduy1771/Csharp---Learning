@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson1", "ConsoleAppLesson1\ConsoleAppLesson1.csproj", "{626C5110-C0C0-4B29-B6A9-F01900DB1329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson1", "ConsoleAppLesson1\ConsoleAppLesson1.csproj", "{626C5110-C0C0-4B29-B6A9-F01900DB1329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson2", "ConsoleAppLesson2\ConsoleAppLesson2.csproj", "{7DC992E4-2C09-45FF-9BD3-4EEE0033FA85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson2", "ConsoleAppLesson2\ConsoleAppLesson2.csproj", "{7DC992E4-2C09-45FF-9BD3-4EEE0033FA85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson3", "ConsoleAppLesson3\ConsoleAppLesson3.csproj", "{E41ACD08-94E1-40E5-91C6-552AFFD1F817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson3", "ConsoleAppLesson3\ConsoleAppLesson3.csproj", "{E41ACD08-94E1-40E5-91C6-552AFFD1F817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson4", "ConsoleAppLesson4\ConsoleAppLesson4.csproj", "{95BC2319-894C-4670-ACD2-F4F6F83340BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson4", "ConsoleAppLesson4\ConsoleAppLesson4.csproj", "{95BC2319-894C-4670-ACD2-F4F6F83340BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson5", "ConsoleAppLesson5\ConsoleAppLesson5.csproj", "{ABE92137-A9EB-4D68-B961-9933A9AF973A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson5", "ConsoleAppLesson5\ConsoleAppLesson5.csproj", "{ABE92137-A9EB-4D68-B961-9933A9AF973A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson6", "ConsoleAppLesson6\ConsoleAppLesson6.csproj", "{1BE28350-46EC-4BA8-8643-A30A12266225}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson6", "ConsoleAppLesson6\ConsoleAppLesson6.csproj", "{1BE28350-46EC-4BA8-8643-A30A12266225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson7", "ConsoleAppLesson7\ConsoleAppLesson7.csproj", "{682E04D1-DE61-454F-BA80-81F32D386D45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1BE28350-46EC-4BA8-8643-A30A12266225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BE28350-46EC-4BA8-8643-A30A12266225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BE28350-46EC-4BA8-8643-A30A12266225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682E04D1-DE61-454F-BA80-81F32D386D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682E04D1-DE61-454F-BA80-81F32D386D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682E04D1-DE61-454F-BA80-81F32D386D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682E04D1-DE61-454F-BA80-81F32D386D45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
