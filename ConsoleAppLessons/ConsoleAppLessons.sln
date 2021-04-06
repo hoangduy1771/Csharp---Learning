@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson7", "Consol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Experimenting", "Experimenting\Experimenting.csproj", "{D6B5DFE8-0A6E-4E80-8F1F-A29D8E73B23D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson8-ClassAndObject", "ConsoleAppLesson8-ClassAndObject\ConsoleAppLesson8-ClassAndObject.csproj", "{E0E5429C-47E1-4140-B96F-6D5E9C9C4C23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson8-ClassAndObject", "ConsoleAppLesson8-ClassAndObject\ConsoleAppLesson8-ClassAndObject.csproj", "{E0E5429C-47E1-4140-B96F-6D5E9C9C4C23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson9-ObjectMethod", "ConsoleAppLesson9-ObjectMethod\ConsoleAppLesson9-ObjectMethod.csproj", "{633D5EF2-CEAF-4CF0-B532-01FEDEAB5C69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson9-ObjectMethod", "ConsoleAppLesson9-ObjectMethod\ConsoleAppLesson9-ObjectMethod.csproj", "{633D5EF2-CEAF-4CF0-B532-01FEDEAB5C69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson10-GettersAndSetters", "ConsoleAppLesson10-GettersAndSetters\ConsoleAppLesson10-GettersAndSetters.csproj", "{AE5528C1-054E-46CE-B1F6-9A7BDA3A1389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLesson10-GettersAndSetters", "ConsoleAppLesson10-GettersAndSetters\ConsoleAppLesson10-GettersAndSetters.csproj", "{AE5528C1-054E-46CE-B1F6-9A7BDA3A1389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLesson11-StaticAttribute", "ConsoleAppLesson11-StaticAttribute\ConsoleAppLesson11-StaticAttribute.csproj", "{C81684F9-CBB7-46D6-9114-9FC071988B9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{AE5528C1-054E-46CE-B1F6-9A7BDA3A1389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE5528C1-054E-46CE-B1F6-9A7BDA3A1389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE5528C1-054E-46CE-B1F6-9A7BDA3A1389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81684F9-CBB7-46D6-9114-9FC071988B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81684F9-CBB7-46D6-9114-9FC071988B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81684F9-CBB7-46D6-9114-9FC071988B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81684F9-CBB7-46D6-9114-9FC071988B9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
