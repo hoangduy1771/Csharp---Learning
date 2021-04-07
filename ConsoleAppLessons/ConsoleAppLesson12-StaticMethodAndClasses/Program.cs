@@ -6,7 +6,9 @@ namespace ConsoleAppLesson12_StaticMethodAndClasses
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            UsefulTools tools = new UsefulTools(); // cannot create a new instance of static class
+            UsefulTools.SayHi("Duy");
+            Console.ReadLine();
         }
     }
 }
