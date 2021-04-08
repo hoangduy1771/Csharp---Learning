@@ -6,6 +6,8 @@ namespace ConsoleAppLesson1
     {
         static void Main(string[] args)
         {
+            //Object, Dynamic, String and Custom data type is reference type
+
             //Console.WriteLine("Please Enter Your Name: ");
             //string userName = Console.ReadLine();
             //Console.WriteLine("Hello " + userName + ", Have a good day!");
