@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleAppLesson10_GettersAndSetters
+﻿namespace ConsoleAppLesson10_GettersAndSetters
 {
     class Movie
     {
@@ -23,8 +17,8 @@ namespace ConsoleAppLesson10_GettersAndSetters
         public string Rating
         {
             get { return rating; }
-            set 
-            { 
+            set
+            {
                 // set the value to be certain value
                 if (value == "G" || value == "PG" || value == "PG-13" || value == "R" || value == "NR")
                 {
