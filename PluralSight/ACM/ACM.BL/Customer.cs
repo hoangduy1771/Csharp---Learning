@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace ACM.BL
+﻿namespace ACM.BL
 {
     public class Customer
     {
@@ -18,10 +16,10 @@ namespace ACM.BL
 
         public string EmailAddress { get; set; }
 
-        public string FirstName { get; set; } // auto implemented propety
+        public string FirstName { get; set; } // auto implemented propety - the backing field is auto implemented
 
 
-        private string _lastName;
+        private string _lastName; // backing field
         public string LastName { get => _lastName; set => _lastName = value; } // property
 
         public string Fullname
@@ -56,38 +54,6 @@ namespace ACM.BL
             if (string.IsNullOrWhiteSpace(EmailAddress)) isValid = false;
 
             return isValid;
-        }
-
-        /// <summary>
-        /// Saves current customer
-        /// </summary>
-        /// <returns></returns>
-        public bool Save()
-        {
-            // Code that saves defined customer
-
-            return true;
-        }
-
-        /// <summary>
-        /// Retrieve one customer
-        /// </summary>
-        /// <param name="customerId"></param>
-        /// <returns></returns>
-        public Customer Retrieve(int customerId)
-        {
-            // Codes retrieves the defines customer
-
-            return new Customer();
-        }
-
-        /// <summary>
-        /// Retrieve all customers
-        /// </summary>
-        /// <returns></returns>
-        public List<Customer> Retrieve()
-        {
-            return new List<Customer>();
         }
 
     }
