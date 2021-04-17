@@ -30,7 +30,7 @@
         /// Saves the current customer.
         /// </summary>
         /// <returns></returns>
-        public bool Save()
+        public bool Save(Customer customer)
         {
             // code that saves the passed in customer
             // assume that the saving is pass because focusing on OOP - not database access
